@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Put title here</title>
+        <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-md-4"><!-- Put your add here--></div>
+            <div class="col-md-4">
+                <div class="container col-md-10" style="margin-top: 300px;">
+                    <form class = "text-center" method="POST" action="php/includes/signin.inc.php">
+                        <input type="email" name = "email" class = "form-control mb-3" placeholder="Email">
+                        <input type="password" name = "pass" class = "form-control mb-3" placeholder="password">
+                        <input type="submit" value ="Sign in" class = "btn btn-primary btn-block">
+                    </form>
+                    <button class = "btn btn-success btn-block" onclick="window.location.href='signup.html'">Sign up</button>
+                </div>
+            </div>
+            <div class="col-md-4"><!-- Put your add here--></div>
+        </div>
+    </body>
+</html>
